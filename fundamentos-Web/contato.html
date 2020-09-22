@@ -1,53 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre o meu contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <Ul>
+    <Ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
         <li>
             <a href="contato.html">Contato</a>
-        </li>     
+        </li>
 
     </Ul>
-    
+
 </body>
-    <h1>
-        Informações para o meu contato
-    </h1>
+<h1 class="center">
+    Informações para o meu contato
+</h1>
+<div class="container">
 
-    <form>
-        <label for="nome">Nome</label> <br>
-        <input type="text" id="nome">
-<br>
-<br>
-        <label for="email">E-mail</label> <br>
-        <input type="email" id="email">
-<br>
-<br>
-        <label for="assunto">Assunto</label> <br>
-        <textarea name="Assunto" id="assunto" cols="30" rows="10"></textarea>
+    <div>
+        <h2>Deixe uma mensagem:</h2>
+        <form>
+            <label for="nome">Nome</label> <br>
+            <input type="text" id="nome">
+            <br>
+            <br>
+            <label for="email">E-mail</label> <br>
+            <input type="email" id="email">
+            <br>
+            <br>
+            <label for="assunto">Assunto</label> <br>
+            <textarea name="Assunto" id="assunto" cols="30" rows="10"></textarea>
+
+            <button>Enviar</button>
+        </form>
+    </div>
+    <div class="mg-left50">
+        <h2>Endereço:</h2>
+
+        <p>Av. Paulista, 1000</p>
         
-        <button>Enviar</button>
-    </form> 
-    <h2>Endereço:</h2>
+        <p>São Paulo</p>
+        
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4350.790727042756!2d-46.87778491030871!3d-23.512197064895577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03d990c0a201%3A0xa1ea651524650c58!2zRXN0YcOnw6NvIEJhcnVlcmk!5e0!3m2!1sen!2sbr!4v1600700258226!5m2!1sen!2sbr"
+            width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
 
-    <p>Av. Paulista, 1000</p>
-    
-    <p>São Paulo</p>
+    </div>
+</div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4350.790727042756!2d-46.87778491030871!3d-23.512197064895577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03d990c0a201%3A0xa1ea651524650c58!2zRXN0YcOnw6NvIEJhcnVlcmk!5e0!3m2!1sen!2sbr!4v1600700258226!5m2!1sen!2sbr" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<hr>
+<footer>
 
+    <div class="container">
+        <a href="https://www.instagram.com/?hl=pt-br" target="_blank"> 
+            <img class="tm-social p-30" src="assets/img/Redes sociais/instagram.png" alt=" logo do Instagram"> 
+        </a>
 
-    
+        <a href="https://www.linkedin.com/in/bruno-stelzeneder-31b0785b/" target="_blank">
+            <img class="tm-social p-30" src="assets/img/Redes sociais/linkedin.png" alt=" logo do linkedin">
+        </a>
 
-    
-    
+        <a href="https://www.youtube.com/" target="_blank"> 
+            <img class="tm-social p-30" src="assets/img/Redes sociais/youtube.png" alt=" logo do youtube">
+        </a>
+
+    </div>
+
+    <p class="center">
+        Todos os direitos reservado para o Bruno Stelzeneder &copy;
+    </p>
+
+</footer>
 
 
 
